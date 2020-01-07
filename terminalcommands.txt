@@ -1,0 +1,23 @@
+pwd - present working directory
+man - manual of any command
+clear - this clears the current window
+cd - change directory
+ls - list the files and directories
+mv - move
+rm - remove
+mkdir - make directory
+whoami - prints the name of current user account
+cat filename - prints content of file
+history - gives command history
+/ - root directory
+~ - home directory of current user
+.. - parent directory
+. -present directory
+* - wildcard expansion
+more - view the contents of a text file one screen at a time
+less - similar to more but having some exceptions like we can use spacebar or arrow keys to scroll. when you want to quit less, you press the "q" key.
+
+find [-option] filename - tells location of the file
+grep text filename - prints the line of file having the text
+vi filename - open file in vi editor
+ 
