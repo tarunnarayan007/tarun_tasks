@@ -1,0 +1,170 @@
+
+body{
+	background-color:#db3d3d;
+
+
+}
+
+.logform{
+	background-color: #eff4fb;
+	overflow: hidden;
+	margin-top:30%;
+	width: 40%;
+  height: 90%;
+  min-height: 500px;
+  min-width: 500px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  background-image: linear-gradient(0deg,#eff4fb 50%,#1374ea 50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 5px;
+  border-radius: 1.5%;
+ 
+}
+
+img
+{
+
+	width: 20%;
+    height: 15%;
+    margin:auto;
+    position: relative;
+    margin-top: 5%;
+ 
+}
+
+::placeholder
+{
+	font-family: sans-serif;
+	color: #d9d9d9;
+	font-size:14px;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;}
+
+.logform .logo
+{
+/*margin-top: 20%;*/
+	width: 100%;
+	/*position: center;*/
+	position: relative;
+	margin:auto;
+	text-align: center;
+	/*margin-left: 50%;
+	margin-right: 50%;*/
+}
+
+.logform .mainlogin
+{
+
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	text-align: center;
+	width: auto;
+	height: 80 %;
+	margin-left: 25%;
+	margin-right: 25%;
+	box-shadow: 1px 1px 5px;
+	border-radius: 5px;
+
+
+	/*left: 20%;
+	right: 20%;*/
+	position: relative;
+	/*display: inline-block;*/
+}
+
+.mainlogin .details
+{
+	position: relative;
+	width: auto;
+	top: 20%;
+
+}
+
+.mainlogin .details input[type="email"],input[type="Password"]
+{
+	position: relative;
+	border:black;
+	border-bottom: 2px solid blue;
+
+	outline: black;
+	color: black;
+	padding-top:5%; 
+	font-size: 23px; 
+	padding-bottom: 2%;
+	display: inline-block;
+}
+
+
+.mainlogin .details input[type="submit"]
+{
+	border: none;
+	outline: none;
+	background-color: #1374ea ;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	height: 35px;
+	width: 80%;
+
+}
+
+.mainlogin .details .pp
+{
+	padding-top: 5%;
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: grey;
+
+}
+
+.mainlogin .details .pp .forg
+{
+	padding-left: 20%;
+	padding-bottom: 5%;
+	color: grey;
+}
+
+.mainlogin .details .cr
+{
+	color: #1374ea;
+	/*margin-bottom: 30%;*/
+}
+
+/*.mainlogin .details .pp input[type="checkbox"]
+{
+	font-size: 10px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

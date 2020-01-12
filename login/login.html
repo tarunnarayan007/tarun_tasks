@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Healthcare Login 
+	</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="outerr">
+		<div class="logform">
+		 <div class="flog"></div>
+		   <div class ="logo">
+			<img src="logo.png">
+			<h2>Health Care</h2>
+		 </div>
+
+		<div class="mainlogin">
+			
+			<!-- <form> -->
+				
+				<form class="details">
+					<div >
+						<input type="email" name="email"  placeholder="Email" id="email">
+
+					</div>
+					<br>
+					<div>
+						<input type="Password" name="Password"  placeholder="Password" id="Password">
+
+					</div>
+					<div class="pp">
+					<input type="checkbox" name="Remember" value="Remember"> Remember  
+					
+						<a href="#" class="forg" style="text-decoration: none " >Forgot Password?</a>
+					  
+					
+					</div>
+					<br>
+					<div class="acc">
+					<input  type="submit" value="Login" id="lo">
+					</div>
+					<br>
+					<a href="#" style="text-decoration: none" class="cr">Create Account</a>
+
+
+
+				</form>
+
+			<!-- </form> -->
+		</div>
+
+		
+	</div>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	//$(".outerr").hide();
+	$(function() {
+		$("#lo").on('click', function() {
+			var email = $("#email").val();
+			var password = $("#Password").val();
+			if( email =='' || password ==''){
+				alert("Some Fields are left blank. Please Fill them and continue");
+			}
+		});
+	});
+	
+</script>
+
+		
+
+
+
+</html>
