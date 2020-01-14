@@ -1,0 +1,193 @@
+
+body{
+	background-color:#db3d3d;
+
+
+}
+
+.logform{
+	background-color: #127dff;
+	overflow: hidden;
+	margin-top:30%;
+	width: 40%;
+  height: 90%;
+  min-height: 500px;
+  min-width: 500px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  background-image: linear-gradient(0deg,#eff4fb 50%,#127dff 50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 5px;
+  border-radius: 1.5%;
+ 
+}
+
+img
+{
+
+	width: 20%;
+    height: 15%;
+    margin:auto;
+    position: relative;
+    margin-top: 5%;
+ 
+}
+
+
+
+
+::placeholder
+{
+	font-family: sans-serif;
+	color: #d9d9d9;
+	font-size:14px;
+	padding-bottom: 0;
+	/*float: bottom;*/
+	margin-left: 20px;
+	/*height: 20px;*/
+	/*margin-bottom: -10px;*/
+}
+
+
+
+h2{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;}
+
+.logform .logo
+{
+/*margin-top: 20%;*/
+	width: 100%;
+	/*position: center;*/
+	position: relative;
+	margin:auto;
+	text-align: center;
+	/*margin-left: 50%;
+	margin-right: 50%;*/
+}
+
+.logform .mainlogin
+{
+
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	text-align: center;
+	width: auto;
+	height: 80 %;
+	margin-left: 25%;
+	margin-right: 25%;
+	box-shadow: 1px 1px 5px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.mainlogin .details
+{
+	position: relative;
+	width: auto;
+	top: 20%;
+
+}
+
+.mainlogin .details input[type="email"],input[type="Password"]
+{
+	position: relative;
+	border:black;
+	border-bottom: 2px solid #127dff;
+	margin-left: 7%;
+	margin-right: 20%;
+	margin-bottom: 0;
+	width: 85%;
+	outline: black;
+	color: black;
+	padding-top:5%; 
+	font-size: 23px; 
+	height: 15px;
+	/*padding-bottom: 2%;*/
+	display: inline-block;
+}
+
+
+.mainlogin .details input[type="submit"]
+{
+	border: none;
+	outline: none;
+	background-color: #127dff ;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	height: 35px;
+	width: 80%;
+
+}
+
+.mainlogin .details .pp
+{
+	padding-top: 5%;
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: grey;
+
+}
+
+.mainlogin .details .pp .forg
+{
+	padding-left: 20%;
+	padding-bottom: 5%;
+	color: grey;
+}
+
+#lo{
+	margin-bottom: 4px;
+	box-shadow: 1px 1px 5px;
+}
+
+.mainlogin .details .cr
+{
+	color: #127dff;
+	/*margin-bottom: 5px;*/
+	font-size:14px;
+
+
+	/*margin-bottom: 30%;*/
+}
+
+#crea
+{
+	margin-top: 8%;
+}
+
+/*.mainlogin .details .pp input[type="checkbox"]
+{
+	font-size: 10px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
