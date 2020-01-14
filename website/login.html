@@ -26,12 +26,12 @@
 				
 				<form class="details">
 					<div >
-						<input type="email" name="email"  placeholder="Email" id="email">
+						<input type="email" name="email"  placeholder="Email" id="email" required >
 
 					</div>
 					<br>
 					<div>
-						<input type="Password" name="Password"  placeholder="Password" id="Password">
+						<input type="Password" name="Password"  placeholder="Password" id="Password" required >
 
 					</div>
 					<div class="pp">
@@ -72,12 +72,30 @@ $(function() {
 $("#lo").on('click', function() {
 var email = $("#email").val();
 var password = $("#Password").val();
-if( (email =='' || password =='') || (email =='' && password =='') ){
+var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+if(  (email =='' && password =='') ){
 swal("Enter all Feilds","","warning");
 }
+else if(email=='')
+{
+swal(" Enter Email","","warning");
+}
+else if(password=='')
+{
+swal(" Enter Password");
+}
+else if(!regex.test(email)) {
+
+           swal("Enter Valid Email","","warning");
+  }
 else if(password.length<=8)
 {
 swal("enter valid passsword","Password length must be greater than 8","error");
+}
+else
+{
+	swal("Congrats","bas username and password match kr lu","success");
 }
 });
 });
