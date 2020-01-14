@@ -142,14 +142,26 @@ h2{
 
 #lo{
 	margin-bottom: 4px;
-	box-shadow: 1px 1px 5px;
+	/*box-shadow: 1px 1px 5px;*/
+	background-color: #127dff;
+	color: white;
+	box-shadow: 1px 1px 2px;
+	border-radius: 5px;
+	width: auto;
+	cursor:pointer;
+	width: 80%;
+	height: 28px;
 }
+
+
 
 .mainlogin .details .cr
 {
 	color: #127dff;
 	/*margin-bottom: 5px;*/
 	font-size:14px;
+
+
 
 
 	/*margin-bottom: 30%;*/
